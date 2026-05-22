@@ -18,7 +18,7 @@ The program additionally gathers and stores analytics on the crawled pages, incl
 
 ## :open_file_folder: PROJECT FILE STRUCTURE
 ```bash
-AntCrawl/
+ant-crawl/
 │── launch.py         # Connects to the cache server and starts the crawler
 │── scraper.py        # Extracts and filters URLs from downloaded pages
 │── crawler/          
@@ -38,12 +38,12 @@ AntCrawl/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/ashneetrathore/AntCrawl.git
+git clone https://github.com/ashneetrathore/ant-crawl.git
 ```
 
 **2. Install dependencies**
 ```bash
-cd AntCrawl
+cd ant-crawl
 python -m pip install packages/spacetime-2.1.1-py3-none-any.whl
 python -m pip install -r packages/requirements.txt
 ```
