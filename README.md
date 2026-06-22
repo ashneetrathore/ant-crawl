@@ -54,11 +54,11 @@ USERAGENT = IR UW25 12345678,87654321
 ```
 
 ## :rocket: EXECUTION
-Run the crawler
+**Run the crawler**
 ```bash
 python3 launch.py
 ```
-To restart the crawler from the seed URL
+**To restart the crawler from the seed URL**
 ```bash
 python3 launch.py --restart
 ```
